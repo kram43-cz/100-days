@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Webfood</title>
+    <title>WebFood</title>
 
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <header>
-      <div>
-        <a href="./index.html">Webfood</a>
+    <header id="main-header">
+      <div id="page-logo">
+        <a href="./index.html">WebFood</a>
       </div>
       <nav>
         <ul>
@@ -23,22 +23,27 @@
     </header>
 
     <main>
-      <h2>Browse Our Delicious Meals</h2>
-      <section>
+      <h1>Browse Our Delicious Meals</h1>
+
+      <section id="latest-products">
         <ul>
-          <li>
-            <img src="" alt="" />
-            <div>
-              <h3>Trdelník</h3>
-              <a href="">Add to Cart</a>
-            </div>
+          <li class="food-items">
+            <article>
+              <img src="./images/trdelnik.jpg" alt="Trdelník" />
+              <div class="food-item-content">
+                <h2>Trdelník</h2>
+                <a href="" class="btn">Add to Cart</a>
+              </div>
+            </article>
           </li>
-          <li>
-            <img src="" alt="" />
-            <div>
-              <h3>Fried Cheese with Fries</h3>
-              <a href="">Add to Cart</a>
-            </div>
+          <li class="food-items">
+            <article>
+              <img src="./images/fries.jpg" alt="French fries" />
+              <div class="food-item-content">
+                <h2>Fried Cheese with Fries</h2>
+                <a href="" class="btn">Add to Cart</a>
+              </div>
+            </article>
           </li>
         </ul>
       </section>
